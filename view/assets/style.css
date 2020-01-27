@@ -1,0 +1,22 @@
+td, th{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.control-me ul{
+    position: absolute;
+    list-style: none;
+    margin: 3em -6em;
+    padding: 0;
+    background-color: coral;
+    display: none;
+}
+
+#toggle:checked ~ .control-me ul{
+    display: inline-block;
+}
+
+.visually-hidden{
+    position: absolute;
+    left: -100em;
+}
